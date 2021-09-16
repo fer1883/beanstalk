@@ -8,7 +8,7 @@ if (!process.env.termo){
 }
 
 app.get('/', (req, res) => {
-    res.send(' Todos TERMO ' + process.env.termo)
+    res.send(' Todos Cabezones ' + process.env.termo)
 })
 
 app.listen(port, () => {
